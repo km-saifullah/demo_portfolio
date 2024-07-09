@@ -1,0 +1,284 @@
+/* ===== Common style start ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Azeret Mono", monospace;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.common_btn {
+  padding: 17px 24px;
+  border: 1px solid #0d1321;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  align-items: center;
+  cursor: pointer;
+}
+.heading {
+  color: #0d1321;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: auto;
+  text-align: center;
+  text-transform: capitalize;
+}
+.paragraph {
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 852px;
+  text-align: center;
+}
+/* ===== Common style end ====== */
+
+/* ============= Navbar style start ============ */
+.navbar {
+  margin: 35px 0;
+}
+.nav_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  color: "#0D1321";
+  font-size: 28px;
+  font-weight: 800;
+  font-family: "Azeret Mono", monospace;
+}
+/* ============= Navbar style end ============ */
+
+/* ============= Banner style start ============== */
+.banner {
+  background-image: url("../images/Hero-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner_small_img {
+  padding: 26px 0 32px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner_heading {
+  color: #0d1321;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  text-align: center;
+}
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 0 32px 0;
+}
+.banner_details {
+  width: 852px;
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+.banner_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 45px;
+}
+.contact_btn {
+  background-color: #0d1321;
+  color: #ffffff;
+  border: 0px solid transparent;
+  text-align: center;
+}
+/* ============= Banner style end ============== */
+
+/* ============= Web Dev Style Start============ */
+.web_dev {
+  padding: 74px 0 90px 0;
+}
+.para_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 0 48px 0;
+}
+.coding_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 60px;
+}
+.coding_heading {
+  width: 390px;
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 36px;
+}
+.coding_details {
+  width: 468px;
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 16px 0 32px 0;
+}
+.coding_btn {
+  padding: 12px 20px;
+  border-radius: 0;
+  font-weight: 600;
+  font-size: 20px;
+}
+.web_system {
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
+  padding-bottom: 32px;
+}
+.web_system_heading {
+  width: 477px;
+}
+/* ============= Web Dev Style End ============ */
+
+/* =========== Inspiration style start =========== */
+.inspiration_section {
+  padding-top: 90px;
+}
+.video_section {
+  padding: 32px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+}
+.video {
+  border-radius: 16px;
+}
+/* =========== Inspiration style end =========== */
+
+/* ======== target style start ======= */
+.target {
+  padding-top: 151px;
+  padding-bottom: 111px;
+}
+.technology {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tech {
+  padding: 40px;
+  /* border: 1px solid rgba(13, 19, 33, 0.2); */
+  border-radius: 16px;
+  background-color: rgba(255, 76, 30, 0.05);
+}
+.title {
+  padding: 24px 0 8px 0;
+}
+.title,
+.para {
+  text-align: left;
+}
+.para {
+  width: 284px;
+}
+.link {
+  margin-top: 24px;
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+}
+.tech2 {
+  background-color: rgba(0, 76, 232, 0.05);
+}
+.tech3 {
+  background-color: rgba(255, 223, 0, 0.05);
+}
+/* ======== target style end ======= */
+
+/* =========== next target style start  ========== */
+.next_target {
+  padding-bottom: 49px;
+}
+.new_tech {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 40px;
+  border: 1px solid #0d1321;
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+.target_detail {
+  width: 941px;
+}
+/* =========== next target style end  ========== */
+
+/* ========= support style start ========= */
+.support {
+  padding-bottom: 80px;
+}
+.support_banner {
+  background-image: url("../images/handshake.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 64px 48px;
+}
+.new_heading,
+.new_para {
+  color: #ffffff;
+}
+.input_fields {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 16px;
+}
+.input_text {
+  padding: 19px 215px 19px 20px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  outline: none;
+}
+.submit_btn {
+  padding: 15px 20px;
+  color: #0d1321;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+/* ========= support style end ========= */
+
+/* ========== footer style start ========== */
+.footer {
+  background-color: rgba(13, 19, 33, 0.03);
+  padding: 38px 0;
+}
+.footer_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer_text {
+  color: #0d1321;
+  font-size: 20px;
+  font-weight: 600;
+}
+.social_logo {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+/* ========== footer style end ========== */
